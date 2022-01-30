@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Tangerine:wght@700&display=swap');
 header{
-    background-image: url('https://i.ibb.co/J2RSRC9/3-D-Render-Notebook-mock-up-with-clean-blank-for-design-and-advertising-3d-illustration-perspective.jpg');
+    background-image: url('https://i.ibb.co/8d8P81j/todo-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+header h1{
+    font-family: 'Aref Ruqaa', serif;
+    font-family: 'Tangerine', cursive;
+    font-size: 5vmax;
+    font-weight: 800;
 }
 .from-control{
     width: 100%;
@@ -37,13 +44,23 @@ header{
     background-color:#f00;
     color:#fff;
 }
-/* .todo-outer{
-    background-image: url('https://i.ibb.co/J2RSRC9/3-D-Render-Notebook-mock-up-with-clean-blank-for-design-and-advertising-3d-illustration-perspective.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.footer{
+    position: absolute;
+    bottom: -15px;
+    text-align: center;
+    width: 100%;
+    background-color: #333;
+    color:#ddd;
+    padding: 10px;   
+}
+.note{
+    font-size: 30px;
+    color: #ddd;
+}
+/* headline animation effect */
 
-} */
+
+  /* responsive */
 @media only screen and (max-width:576px) {
     .from-control{
         width: 100%;
