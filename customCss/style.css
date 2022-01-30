@@ -1,0 +1,65 @@
+header{
+    background-image: url('https://i.ibb.co/J2RSRC9/3-D-Render-Notebook-mock-up-with-clean-blank-for-design-and-advertising-3d-illustration-perspective.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.from-control{
+    width: 100%;
+    margin: 0 auto !important;
+    padding: 5px;
+}
+.all-btn{
+    display: flex;
+    justify-content: right;
+}
+.search-container{
+    background-color: #555;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+.innerbtn{
+    border: none;
+    background-color: #333;
+}
+.innerbtn:hover{
+    background-color:#5ca;
+}
+.deletebtn{
+    border: none;
+    background-color: #922;
+    color:#fff !important;
+}
+.deletebtn:hover{
+    background-color:#f00;
+    color:#fff;
+}
+/* .todo-outer{
+    background-image: url('https://i.ibb.co/J2RSRC9/3-D-Render-Notebook-mock-up-with-clean-blank-for-design-and-advertising-3d-illustration-perspective.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+} */
+@media only screen and (max-width:576px) {
+    .from-control{
+        width: 100%;
+        margin-left: 50px;   
+    }
+    .all-btn .btn{
+        width: 50%;
+    } 
+    .innerbtn{
+        position: relative;
+        right:-50%;
+    }
+}
+/* @media only screen and (min-width:'577px') {
+    .from-control{
+        width: 80%;
+    }
+    
+} */

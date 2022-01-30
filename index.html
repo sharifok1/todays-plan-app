@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="style/bootstrap-css/bootstrap.min.css">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="customCss/style.css">
+    <title>TodayPlan</title>
+</head>
+<body>
+    <header>
+        <div>
+           <nav class="search-container">
+              <a class="navbar-brand">Add Note</a>
+              <form class="from-inline">
+                <input 
+                    class="from-control mr-sm-2" 
+                    type="search" 
+                    placeholder="Search" 
+                    aria-label="search" 
+                    id="searchtextbox"
+                    >
+                 </form>
+            </nav>        
+        </div>
+        </div>
+        <section class="todo-outer">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-sm-12 col-md-8">
+                        <h1>Make your today's plan</h1>
+                        <div class="todo-inner">
+                            <div class="row">
+                                <div class="col-xm-12 col-sm-6 col-md-6">
+                                    <input type="text"
+                                           class="from-control w-sm-100 m-2"
+                                           placeholder="Enter your task"
+                                           id="addtaskinput"
+                                    >
+                                    <input type="hidden" id="saveindex">
+                                </div>
+                                <div class="col-xm-12 col-sm-6 col-md-6">
+                                    <div class="all-btn"> 
+                                        <button type="button"
+                                        class="btn btn-success m-2"
+                                        id="addtaskbtn">
+                                        Add Task
+                                        </button>
+                                        <button type="button"
+                                            class="btn btn-success m-2"
+                                            id="updatebtn"
+                                            style="display: none;">
+                                                Update
+                                        </button>
+                                        <button type="button"
+                                            class="btn btn-danger m-2"
+                                            id="deleteallbtn">
+                                            Delete All
+                                         </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to-do-output">
+                               <table class="table table-striped mt-3 mb-0"
+                                       id="addedtasklist">
+                               </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <script src="customJs/app.js"></script>
+    <script src="js/bootstrap-js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
