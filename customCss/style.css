@@ -6,8 +6,8 @@ header{
     background-position: center;
     height: 100vh;
 }
-header h1{
-    font-family: 'Aref Ruqaa', serif;
+.heading{
+    /* font-family: 'Aref Ruqaa', serif; */
     font-family: 'Tangerine', cursive;
     font-size: 5vmax;
     font-weight: 800;
