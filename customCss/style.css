@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Tangerine:wght@700&display=swap');
-header{
-    background-image: url('https://i.ibb.co/8d8P81j/todo-1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
+
 .heading{
     /* font-family: 'Aref Ruqaa', serif; */
     font-family: 'Tangerine', cursive;
     font-size: 5vmax;
     font-weight: 800;
 }
+.todo-outer{
+    height: auto;
+    background-image: url('https://i.ibb.co/TvBy73q/3-D-Render-Notebook-mock-up-with-clean-blank-for-design-and-advertising-3d-illustration-perspective.jpg');
+    background-repeat: no-repeat; 
+    background-position:center;
+    background-size:cover;
+    min-height: 80vh;
+}
 .from-control{
+    
     width: 100%;
     margin: 0 auto !important;
     padding: 5px;
@@ -44,21 +47,10 @@ header{
     background-color:#f00;
     color:#fff;
 }
-.footer{
-    position: absolute;
-    bottom: -15px;
-    text-align: center;
-    width: 100%;
-    background-color: #333;
-    color:#ddd;
-    padding: 10px;   
-}
 .note{
     font-size: 30px;
     color: #ddd;
 }
-/* headline animation effect */
-
 
   /* responsive */
 @media only screen and (max-width:576px) {
@@ -74,9 +66,3 @@ header{
         right:-50%;
     }
 }
-/* @media only screen and (min-width:'577px') {
-    .from-control{
-        width: 80%;
-    }
-    
-} */
